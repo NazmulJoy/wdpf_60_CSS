@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML menu</title>
+    <style>
+      .first ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .first ul li a {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        background-color: rgb(204, 250, 129);
+        padding: 8px 16px;
+      }
+      .first ul li a:hover {
+        background-color: grey;
+        color: rgba(255, 0, 0, 0.938);
+      }
+      .first ul li a.active {
+        background-color: rgb(168, 93, 0);
+        color: white;
+      }
+      .second ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: bisque;
+      }
+      .second ul li {
+        display: inline;
+        margin-right: 8px;
+      }
+      .second ul li a {
+        text-decoration: none;
+
+        background-color: rgb(143, 206, 214);
+        padding: 8px 16px;
+      }
+      .second ul li a:hover {
+        background-color: rgb(216, 99, 99);
+        color: rgba(130, 204, 179, 0.938);
+      }
+      .second ul li a.active {
+        background-color: rgb(17, 148, 45);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Vertical menu</h3>
+    <div class="first">
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Activites</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <hr />
+    <h3>Horizontal menu/navigation</h3>
+    <div class="second">
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Activies</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
