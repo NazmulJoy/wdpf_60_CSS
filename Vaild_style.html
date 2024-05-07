@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input:required {
+        background-color: rgb(196, 236, 121);
+      }
+      input[type="email"]:invalid {
+        background-color: aquamarine;
+      }
+      input[type="text"]:optional {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      Name:
+      <input type="text" name="Fullname" required /> <br />
+      Email:
+      <input type="email" name="Email" id="" /> <br />
+      Father name:
+      <input type="text" name="Fathername" id="" />
+    </form>
+  </body>
+</html>
