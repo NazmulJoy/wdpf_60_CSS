@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+#wrapper {
+  width: 1050px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(208, 192, 216);
+}
+.logo {
+  background-image: url(../Images/Logo.png);
+  width: 100px;
+  height: 100px;
+}
+.Name {
+  color: rgb(30, 148, 207);
+}
+button {
+  color: rgb(30, 148, 207);
+}
+input {
+  border: 1px solid rgb(30, 148, 207);
+}
+.navbar {
+  display: flex;
+  background-color: rgb(206, 243, 227);
+}
+.navbar div {
+  margin: 5px;
+  padding: 5px;
+  padding-left: 30px;
+}
+.navbar div a {
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgb(30, 148, 207);
+  background-color: rgb(231, 213, 211);
+}
+.container {
+  display: flex;
+}
+.leftbar {
+  text-align: center;
+  width: 15%;
+  height: 500px;
+  background-color: rgb(234, 245, 213);
+  border-right: 2px solid rgb(30, 148, 207);
+  padding: 40px;
+  line-height: 30px;
+}
+.leftbar h3 {
+  color: rgb(30, 148, 207);
+}
+.leftbar div a {
+  text-decoration: none;
+}
+
+a:hover {
+  display: block;
+  width: 100%;
+  color: rgb(30, 148, 207);
+  background-color: rgb(192, 175, 175);
+}
+.content {
+  width: 85%;
+  background-color: rgb(223, 207, 207);
+}
+.content h2 {
+  margin: 10px;
+  text-align: center;
+  color: rgb(136, 51, 51);
+}
