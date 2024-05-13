@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(162, 223, 223);
+  padding: 2px;
+  top: 0;
+  z-index: 9999;
+  box-shadow: 1px 1px black;
+}
+.title h1 {
+    font-weight: 300;
+    color: rgb(0, 85, 85);
+}
+.topbar {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  padding-right: 15px;
+}
+.menubar {
+    background-color: rgba(120, 120, 156, 0.78);
+  }
+  
+  .inside {
+    margin: 0 auto;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  
+  a:hover {
+    background-color: red;
+    padding: 10px;
+  }
+.main {
+    display: flex;
+    margin: 0 auto;
+  justify-content: space-between;
+}
+.verti {
+    background-color: rgb(241, 241, 214);
+    border-right: 1px solid black;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    line-height: 55px;
+    font-size: larger;
+    text-align: center;
+}
+.verti h4 {
+    color: blue;
+}
+ a {
+    text-decoration: none;
+}
+}
+.content {
+        background-color: bisque;
+        width: 70%;
+        padding: 20px;
+        
+      
+}
+
+.footer {
+    background-color: rgba(218, 219, 184, 0.807);
+  }
+  
+  .in {
+    margin: 0 auto;
+    width: 1050px;
+    padding: 0px;
+  }
+  
+  .in p {
+    text-align: center;
+  }
